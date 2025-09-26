@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+psycopg2 = "*"
+reportlab = ">=4.0.4"
+pillow = ">=10.0.0"
+django = "*"
+whitenoise = "*"
+gunicorn = "*"
+uvicorn = "*"
+dj-database-url = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
